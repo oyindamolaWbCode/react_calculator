@@ -1,0 +1,76 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+.calculatorContent {
+  margin: auto;
+  width: 400px;
+  border: 3px solid #232322;
+  border-radius: 10px;
+  height: 720px;
+}
+
+#calculatordisplay {
+  margin: 30px 30px 40px 30px;
+  border: 1px dashed rgb(219, 215, 160);
+  background-color: rgb(179, 217, 237);
+  width: 83%;
+  height: 65px;
+  border-radius: 9px;
+  padding: 5px;
+}
+
+.numberDisplay {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2.5rem;
+  margin-right: 6px;
+}
+
+.previousDisplay {
+  color: #232322;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+
+.buttonOne {
+  width: 83%;
+  margin: 30px 30px 5px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 20px;
+  padding: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(231, 238, 241);
+}
+
+button:hover {
+  background-image: linear-gradient(to right, #7373d5 35%, #72d4e7 100%);
+}
+
+.exempted {
+  padding: 25px;
+  border-radius: 50%;
+  border: none;
+  font-size: 15px;
+}
+
+.buttonTwo {
+  width: 83%;
+  margin: 30px 30px 5px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonTwo .equalto {
+  padding: 25px 75px;
+  border-radius: 10px;
+}
