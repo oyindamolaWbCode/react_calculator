@@ -40,11 +40,9 @@ const Calculator = () => {
     }
 
     const clearbutton = () =>{
-      const first = setCalc;
-      const second = result
-
-       delete clearbutton.first
-       delete clearbutton.second
+     setCalc("");
+     setResult("");
+     
     }
 
     return ( 
